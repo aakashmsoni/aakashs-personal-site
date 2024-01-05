@@ -6,5 +6,12 @@ module.exports = {
     title: `Aakashs Personal Site`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "aakashsoni.com",
+      },
+    },
+  ],
 }
