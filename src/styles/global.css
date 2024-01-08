@@ -1,11 +1,18 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:'Times New Roman', Times, serif;
+  color:antiquewhite
 }
 html, body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgb(1, 149, 60), rgb(0, 0, 0));
+  background: linear-gradient( rgb(35, 57, 5), rgb(0, 0, 0));
+  /* background: linear-gradient(at top left, rgb(3, 151, 62), rgb(0, 0, 0),rgb(0, 164, 172)); */
   background-repeat: no-repeat;
+}
+.layout {
+  max-width:90%;
+  margin: 0 auto;
 }

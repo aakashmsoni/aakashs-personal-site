@@ -1,4 +1,23 @@
 header {
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #565656);
-  color: whitesmoke
+  /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #565656); */
+  color: black!important;
+}
+nav {
+  display:grid;
+  grid-template-columns: 8fr, 1fr, 1fr;
+  margin: 40px auto;
+}
+nav .links {
+  display: inline-block;
+  text-align: right;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+nav a:hover {
+  border-color: white;
 }

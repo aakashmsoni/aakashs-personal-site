@@ -1,13 +1,14 @@
 import * as React from "react"
+import { Link } from "gatsby"
 import "../styles/header.css"
 
 export const Header = () => {
   return (
     <header>
       <nav>
-        <div>
-          <p>Home</p>
-          <p>Projects</p>
+        <div className="links">
+          <Link to="/">Home</Link>
+          <Link to="/projects">Projects</Link>
         </div>
       </nav>
     </header>
