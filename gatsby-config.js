@@ -13,5 +13,7 @@ module.exports = {
         bucketName: "aakashsoni.com",
       },
     },
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
   ],
 }
