@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Header } from "../components/Header";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -10,7 +9,7 @@ function Index() {
       <h1>
         Aakash Soni
       </h1>
-      <StaticImage src="../images/profile_pic2.jpeg" />
+      <StaticImage src="../images/profile_pic3(ring).png" width={400}/>
     </div>
     </Layout>
   )
