@@ -6,13 +6,19 @@
 }
 .header h2 {
   font-size: 4em;
-  text-align:center;
-  height: 7em;
+  text-align:left;
+  height: 4.5em;
   line-height: 7em;
   
 
+}
+.header h3 {
+  font-size: 1.5em;
+  text-align: left;
+  
 }
 .header img {
   max-width: 80%;
   height: auto;
 }
+

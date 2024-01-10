@@ -8,9 +8,13 @@ function Index() {
   return (
     <Layout>
     <section className={styles.header}>
-        <h2>
-          Aakash Soni
-        </h2>
+        <div className={styles.titles}>
+          <h2>
+            Aakash Soni
+          </h2>
+          <h3>Software Engineer</h3>
+          <h3>Web Developer</h3>
+        </div>
         <StaticImage src="../images/profile_pic6.png" className="profile_pic" alt="pic" />
     </section>
     </Layout>
