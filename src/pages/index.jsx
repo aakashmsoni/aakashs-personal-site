@@ -11,7 +11,7 @@ function Index() {
         <h2>
           Aakash Soni
         </h2>
-        <StaticImage src="../images/profile_pic6.png" className="profile_pic"  />
+        <StaticImage src="../images/profile_pic6.png" className="profile_pic" alt="pic" />
     </section>
     </Layout>
   )
