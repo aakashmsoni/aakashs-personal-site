@@ -1,16 +1,18 @@
 import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
+import * as styles from '../styles/home.module.css'
+
 
 function Index() {
   return (
     <Layout>
-    <div>
-      <h1>
-        Aakash Soni
-      </h1>
-      <StaticImage src="../images/profile_pic3(ring).png" width={400}/>
-    </div>
+    <section className={styles.header}>
+        <h2>
+          Aakash Soni
+        </h2>
+        <StaticImage src="../images/profile_pic6.png" className="profile_pic"  />
+    </section>
     </Layout>
   )
 }

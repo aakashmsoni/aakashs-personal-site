@@ -1,0 +1,18 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 3fr 4fr;
+  
+
+}
+.header h2 {
+  font-size: 4em;
+  text-align:center;
+  height: 7em;
+  line-height: 7em;
+  
+
+}
+.header img {
+  max-width: 80%;
+  height: auto;
+}

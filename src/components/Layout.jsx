@@ -1,11 +1,11 @@
 import React from "react";
-import { Header } from "./Header";
+import { Navbar } from "./Navbar";
 import "../styles/global.css"
 
 export default function Layout({children}) {
   return (
     <div className="layout">
-      <Header />
+      <Navbar />
       <div className="content">
         { children }
       </div>
