@@ -19,3 +19,6 @@ body {
   max-width:90%;
   margin: 0 auto;
 }
+:-webkit-any-link {
+  text-decoration: none;
+}
