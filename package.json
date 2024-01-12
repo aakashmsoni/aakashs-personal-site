@@ -16,6 +16,7 @@
     "deploy": "npm run -n \"-r dotenv/config\" && npm run build && gatsby-plugin-s3 deploy"
   },
   "dependencies": {
+    "@cloudpdf/viewer": "^1.0.5",
     "gatsby": "^5.13.1",
     "gatsby-plugin-image": "^3.13.0",
     "gatsby-plugin-s3": "^0.4.1",
