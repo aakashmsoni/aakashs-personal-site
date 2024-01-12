@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
-import * as styles from '../styles/home.module.css'
+import * as styles from '../styles/home.module.css';
 
 
 function Index() {
