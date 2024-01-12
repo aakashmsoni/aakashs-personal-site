@@ -13,7 +13,15 @@ module.exports = {
         bucketName: "aakashsoni.com",
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src//projects`,
+      }
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-remark",
   ],
 }
