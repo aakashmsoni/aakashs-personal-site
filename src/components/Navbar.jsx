@@ -12,6 +12,7 @@ export function Navbar() {
     setIsShowResumeVisible(false);
   }
 
+  
 
   return (
     <nav>
