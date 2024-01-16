@@ -11,7 +11,7 @@ html, body {
   
 }
 body {
-  background: linear-gradient( rgb(35, 57, 5), rgb(0, 0, 0));
+  background: linear-gradient(rgb(0, 0, 0), rgb(5, 57, 56) );
   /* background: linear-gradient(at top left, rgb(3, 151, 62), rgb(0, 0, 0),rgb(0, 164, 172)); */
   background-repeat: no-repeat;
 }
