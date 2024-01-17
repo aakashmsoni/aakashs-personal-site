@@ -1,24 +1,31 @@
-.header {
-  display: grid;
-  grid-template-columns: 2fr 3fr 4fr;
-  
-
+.profile {
+  display: flex;
+  height: 70vh;
+  padding-bottom: 20vh;
+  margin: 0 10rem;
+  min-height: fit-content;
+  align-items: center;
 }
-.header h2 {
-  font-size: 4em;
-  text-align:left;
-  height: 4.5em;
-  line-height: 7em;
-  
 
+.profileText {
+  display: block;
 }
-.header h3 {
+
+.profileText h2 {
+  font-size: 5em;
+  text-align:center;
+  padding-bottom: 0.5em;
+}
+.profileText h3 {
   font-size: 1.5em;
-  text-align: left;
+  text-align: center;
   
 }
-.header img {
-  max-width: 80%;
-  height: auto;
+.profilePicContainer {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
 }
+
 
