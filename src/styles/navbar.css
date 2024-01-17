@@ -6,6 +6,9 @@ nav {
   display:grid;
   grid-template-columns: 8fr, 1fr, 1fr;
   margin: 20px auto;
+  transition: top 0.8s;
+  position: relative;
+  width: 100%;
 }
 nav .links {
   display: inline-block;

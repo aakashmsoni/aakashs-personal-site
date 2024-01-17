@@ -12,13 +12,22 @@ export function Navbar() {
     setIsShowResumeVisible(false);
   }
 
-  
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+  }
 
   return (
-    <nav>
+    <nav id="navbar">
         <div className="links">
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="#about">About</Link>
           <Link to="/projects">Projects</Link>
           <Link to="" onClick={() => setIsShowResumeVisible(true)}>Resume</Link> 
           <Modal show={isShowResumeVisible} onClose={handleClose}>
