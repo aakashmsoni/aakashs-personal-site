@@ -1,6 +1,6 @@
 ---
 title: Work Journal
-stack: Github
+stack: 
 slug: work-journal
 github: {
   frontend: "https://gist.github.com/aakashmsoni",
