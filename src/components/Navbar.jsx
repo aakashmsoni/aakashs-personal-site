@@ -6,15 +6,18 @@ import { useState, useRef, useEffect } from "react"
 import { Modal } from "./Modal"
 
 export function Navbar() {
+  // USE STATE HOOK FOR RESUME MODAL
   const [isShowResumeVisible, setIsShowResumeVisible] = useState(false);
 
+  // USE STATE HOOK FOR HAMBURGER NAV
   const [nav, showNav] = useState(false);
   
-
+  // CLOSE RESUME MODAL
   const handleClose = () => {
     setIsShowResumeVisible(false);
   }
 
+  // HIDE TOP NAV ON DOWN SCROLL
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -27,6 +30,7 @@ export function Navbar() {
   scrollFunction();
   }
 
+  // SHOW HAMBURGER NAV ICON ON DOWN SCROLL
   function scrollFunction() {
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
       document.getElementById("hamburgerIcon").style.right = "20px";} else {
