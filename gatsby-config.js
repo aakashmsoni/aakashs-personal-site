@@ -5,6 +5,8 @@ module.exports = {
   siteMetadata: {
     title: `Aakash Soni`,
     siteUrl: `https://www.aakashsoni.com`,
+    description: "web dev portfolio",
+    copyright: "This website is copyright 2024 Aakash Soni"
   },
   plugins: [
     {
