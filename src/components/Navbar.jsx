@@ -11,25 +11,6 @@ export function Navbar() {
   const [nav, showNav] = useState(false);
   console.log(nav);
 
-  // function toggleOpen(nav) {
-  //   var transformLinks = "translate(100%)"
-  //   if (nav === "true") {
-  //     transformLinks = "translateX(100%)";
-  //   } else {
-  //     transformLinks = "translate(0)";
-  //   }
-  // }
-
-  // function myFunction() {
-  //   var x = document.getElementById("hamburgerLinks");
-  //   if (x.style.display === "block") {
-  //     x.style.display = "none";
-  //   } else {
-  //     x.style.display = "block";
-  //   }
-  // }
-  
-
   const handleClose = () => {
     setIsShowResumeVisible(false);
   }
@@ -43,7 +24,6 @@ export function Navbar() {
     document.getElementById("navbar").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
-
   scrollFunction();
   }
 
@@ -66,12 +46,7 @@ export function Navbar() {
           <Modal show={isShowResumeVisible} onClose={handleClose}>
             <iframe src="https://cloudpdf.io/view/dbDdm_xHs" style={{width:750, height:650}} frameborder="0" title="resume"></iframe>
           </Modal>
-          <a href="https://www.linkedin.com/in/aakashmsoni/">
-            <StaticImage src="../images/linkedin.png" alt="linkedin" width={22} className="icons" />
-          </a>
-          <a href="https://www.github.com/aakashmsoni/">
-            <StaticImage src="../images/github.png" alt="linkedin" width={22} className="icons" />
-          </a>
+          
           <button id="hamburgerIcon" className="hamburgerIcon" onClick={() => showNav(!nav)}>
             <span></span>
             <span></span>
