@@ -48,9 +48,9 @@ export function Navbar() {
           </Modal>
           
           <button id="hamburgerIcon" className="hamburgerIcon" onClick={() => showNav(!nav)}>
-            <span></span>
-            <span></span>
-            <span></span>
+            <span style={nav === true ? {transform: "rotate(45deg)"} : {transform: "rotate(0)"}}></span>
+            <span style={nav === true ? {opacity: "0"} : {opacity: "1"}}></span>
+            <span style={nav === true ? {transform: "rotate(-45deg)"} : {transform: "rotate(0)"}}></span>
           </button>
           <div id="hamburgerLinks" className="hamburgerLinks" style={nav === true ? {transform: "translateX(0)"} : {transform: "translateX(100%)"}}>
             <Link to="/" >Home</Link>
