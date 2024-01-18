@@ -1,7 +1,7 @@
 .profile {
   display: flex;
   height: 70vh;
-  padding-bottom: 20vh;
+  padding-bottom: 24vh;
   margin: 0 10rem;
   min-height: fit-content;
   align-items: center;
@@ -27,5 +27,14 @@
   width: 500px;
   margin: 0 auto;
 }
-
+.profileText img {
+  background-color: transparent;
+  width:40px;
+  height: auto;
+  padding: 5px;
+}
+.socialLinks {
+  text-align: center;
+  padding-top: 5px
+}
 
