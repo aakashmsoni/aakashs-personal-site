@@ -9,7 +9,7 @@ export function Navbar() {
   const [isShowResumeVisible, setIsShowResumeVisible] = useState(false);
 
   const [nav, showNav] = useState(false);
-  console.log(nav);
+  
 
   const handleClose = () => {
     setIsShowResumeVisible(false);
