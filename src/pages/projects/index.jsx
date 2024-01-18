@@ -10,31 +10,42 @@ function Projects({ data }) {
 
   return (
     <Layout>
+      <section id="projects">
       <div className={styles.portfolio}>  
         <h2>Portfolio</h2>
         <h3>Projects & Websites I've Created</h3>
         <div className={styles.projects}>
           {projects.map(project => (
-            <Link className="link" to={"/projects" + project.frontmatter.slug} key={project.id}>
+            <div key={project.id}>
+            {/* // <Link className="link" to={"/projects" + project.frontmatter.slug} key={project.id}> */}
               <h3>{project.frontmatter.title}</h3>
               <p>{project.frontmatter.stack}</p>
-            </Link>
+              <a href={project.frontmatter.github.frontend}>
+                <button value="Github">Github</button>
+              </a>
+            </div>
+            // </Link>
           ))}
         </div>
       </div>
+      </section>
     </Layout>
   )
 }
 export default Projects;
 
 export const query = graphql`
-query MyQuery {
+query ProjectsQuery {
   projects: allMarkdownRemark {
     nodes {
       frontmatter {
         title
         stack
         slug
+        github {
+          frontend
+          backend
+        }
       }
       id
     }

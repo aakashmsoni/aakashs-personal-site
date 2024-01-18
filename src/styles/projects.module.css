@@ -23,3 +23,20 @@
 .projects p {
   margin-top: 4px;
 }
+.projects button {
+  background-color: rgba(146, 146, 146, 0.324);
+  color: white;
+  border-radius:5px;
+  border-style:outset;
+  border-width: 2px;
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.projects button:hover {
+  background-color: transparent;
+  font-size: 1.5em;
+}
