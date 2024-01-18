@@ -25,7 +25,7 @@ function Index() {
         <StaticImage src="../images/profile_pic6.png" className="profile_pic" alt="pic" /> 
         </div>
       </section>
-      <About />
+      <About id="about" />
     </Layout>
   );
 }
