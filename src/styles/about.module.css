@@ -1,0 +1,10 @@
+.about {
+  min-height: 100vh
+}
+.about h2 {
+  font-size: 50px;
+}
+.about p {
+  font-size: 20px;
+
+}
