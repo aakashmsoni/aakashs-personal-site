@@ -1,7 +1,6 @@
 import * as React from "react";
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 import * as styles from "../styles/skills.module.css"
-import { StaticImage } from "gatsby-plugin-image";
 import Img from "gatsby-image"
 
 function Skills() {
