@@ -8,6 +8,8 @@ function Projects({ data }) {
   const projects = data.projects.nodes
   console.log(projects)
 
+ 
+
   return (
     <Layout>
       <section id="projects">
@@ -25,7 +27,9 @@ function Projects({ data }) {
                   <button value="Github">Github</button>
                 </a>
               </div>
-              )}})}
+              )} else {
+                return null
+              }})}
         </div>
       </div>
       </section>
