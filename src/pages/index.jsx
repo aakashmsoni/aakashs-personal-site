@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "../styles/home.module.css";
 import { About } from "./about";
+import Skills from "./skills";
 
 function Index() {
   return (
@@ -26,6 +27,7 @@ function Index() {
         </div>
       </section>
       <About id="about" />
+      <Skills id="skills" />
     </Layout>
   );
 }
