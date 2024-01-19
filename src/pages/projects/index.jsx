@@ -2,11 +2,11 @@ import * as React from 'react'
 import Layout from '../../components/Layout'
 import * as styles from "../../styles/projects.module.css"
 import { graphql } from 'gatsby'
-import { Link } from 'gatsby'
+
 
 function Projects({ data }) {
-  console.log(data)
   const projects = data.projects.nodes
+  console.log(projects)
 
   return (
     <Layout>
@@ -15,17 +15,17 @@ function Projects({ data }) {
         <h2>Portfolio</h2>
         <h3>Projects & Websites I've Created</h3>
         <div className={styles.projects}>
-          {projects.map(project => (
-            <div key={project.id}>
-            {/* // <Link className="link" to={"/projects" + project.frontmatter.slug} key={project.id}> */}
-              <h3>{project.frontmatter.title}</h3>
-              <p>{project.frontmatter.stack}</p>
-              <a href={project.frontmatter.github.frontend}>
-                <button value="Github">Github</button>
-              </a>
-            </div>
-            // </Link>
-          ))}
+          {projects.map(project => {
+            if(project.frontmatter.type.includes('project')) {
+              return (
+              <div key={project.id}>
+                <h3>{project.frontmatter.title}</h3>
+                <p>{project.frontmatter.stack}</p>
+                <a href={project.frontmatter.github.frontend}>
+                  <button value="Github">Github</button>
+                </a>
+              </div>
+              )}})}
         </div>
       </div>
       </section>
@@ -46,6 +46,7 @@ query ProjectsQuery {
           frontend
           backend
         }
+        type
       }
       id
     }
