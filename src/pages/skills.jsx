@@ -1,5 +1,8 @@
 import * as React from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery, Link } from "gatsby";
+import * as styles from "../styles/skills.module.css"
+import { StaticImage } from "gatsby-plugin-image";
+import Img from "gatsby-image"
 
 function Skills() {
   const data = useStaticQuery(graphql`
@@ -8,7 +11,16 @@ function Skills() {
       nodes {
         frontmatter {
           type
-          skills
+          skills {
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            language
+          }
         }
       }
     }
@@ -18,12 +30,13 @@ function Skills() {
   console.log(skills)
 
   return (
-    <section id="skills">
+    <section id="skills" className={styles.skill}>
       <div>
-        <p>Here are my skills</p>
+        <h1>Here are my skills</h1>
         {skills.map(skill => (
-          <div key={skill}>
-            <h3>{skill}</h3>
+          <div key={skill.language}>
+            <h3>{skill.language}</h3>
+            <Img fluid={skill.image.childImageSharp.fluid} />
           </div>
         ))}
       </div>
