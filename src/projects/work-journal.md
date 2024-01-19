@@ -6,4 +6,5 @@ github: {
   frontend: "https://gist.github.com/aakashmsoni",
   backend: ""
 }
+type: "project"
 ---

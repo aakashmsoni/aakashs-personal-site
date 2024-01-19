@@ -6,4 +6,5 @@ github: {
   frontend: "https://github.com/aakashmsoni/nba_trend_analyzer",
   backend: ""
 }
+type: "project"
 ---
