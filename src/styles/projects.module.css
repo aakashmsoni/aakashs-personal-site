@@ -35,8 +35,10 @@
   padding: 8px 15px;
   cursor: pointer;
   transition-duration: 0.2s;
+  box-shadow: 1px 1px 5px gray;
 }
 .projects button:hover {
   background-color: transparent;
   font-size: 1.1em;
+  
 }
