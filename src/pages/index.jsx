@@ -2,7 +2,7 @@ import * as React from "react";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "../styles/home.module.css";
-import { About } from "./about";
+import About from "./about";
 import Skills from "./skills";
 
 function Index() {

@@ -1,8 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import "../styles/navbar.css"
-import { StaticImage } from "gatsby-plugin-image"
-import { useState, useRef, useEffect } from "react"
+import { useState } from "react"
 import { Modal } from "./Modal"
 
 export function Navbar() {
