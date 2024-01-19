@@ -14,7 +14,10 @@ html, body {
 body {
   background: linear-gradient(rgb(0, 0, 0), rgb(5, 57, 56) );
   /* background: linear-gradient(at top left, rgb(3, 151, 62), rgb(0, 0, 0),rgb(0, 164, 172)); */
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  
+  
 }
 .layout {
   max-width:90%;
