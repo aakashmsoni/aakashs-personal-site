@@ -1,6 +1,56 @@
-.skill {
+.skillsection {
   min-height: 100vh;
+  padding-top: 10px;
 }
-.skill h1 {
-  font-size: 50px;
+.skillsection h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.skillgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  border-radius: 20px;
+  border: 5px solid bisque;
+  width: 70%;
+  padding: 15px;
+  margin: 8rem 12rem 8rem 12rem;
+  
+  
+  
+}
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+  align-items: center;
+  width:fit-content;
+  position: relative;
+  transition-duration: 0.3s;
+  margin: 0.4em;
+  border-radius: 10px;
+  background: transparent;
+  /* background-clip: content-box; */
+  
+
+}
+.banner:hover {
+  /* background-color: rgba(147, 147, 147, 0.385); */
+  border-bottom: 5px solid white;
+  transition: 0.2s ease;
+  
+  
+
+  /* border-bottom: 5px solid rgba(255, 255, 255, 0.496); */
+  
+
+}
+.banner h3 {
+  font-size: 2.5em;
+
+}
+.image {
+  width: 70px;
+  height: auto;
+  margin-right: 15px;
 }
