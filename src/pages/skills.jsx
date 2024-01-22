@@ -29,13 +29,21 @@ function Skills() {
   console.log(skills)
 
   return (
-    <section id="skills" className={styles.skill}>
-      <div>
-        <h1>Here are my skills</h1>
+    <section id="skills" className={styles.skillsection}>
+      <h1>Here are my skills</h1>
+
+      <div className={styles.box}>
+        <div className={styles.btn}>
+          <span>HOVER ME</span>
+        </div>
+      </div>
+
+
+      <div className={styles.skillgrid}>
         {skills.map(skill => (
-          <div key={skill.language}>
+          <div key={skill.language} className={styles.banner}>
+            <Img fluid={skill.image.childImageSharp.fluid} className={styles.image} />
             <h3>{skill.language}</h3>
-            <Img fluid={skill.image.childImageSharp.fluid} />
           </div>
         ))}
       </div>
