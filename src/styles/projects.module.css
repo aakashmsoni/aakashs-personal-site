@@ -1,5 +1,7 @@
 .portfolio {
   text-align: center;
+  min-height: 100vh;
+  padding-top: 75px;
 }
 .portfolio > h2 {
   font-size: 3em;
