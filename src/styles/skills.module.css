@@ -55,6 +55,10 @@
 .banner:hover h3 {
   letter-spacing: 2px;
 }
+
+.banner:hover .image {
+  transform: rotateY(360deg);
+}
 .banner:hover::before {
   opacity: 1; 
   transform: scale(1, 1); 
@@ -85,7 +89,7 @@
   width: 70px;
   height: auto;
   margin-right: 15px;
-  transition: all 0.3s;
+  transition: all 1.2s;
   background: transparent;
 }
 
