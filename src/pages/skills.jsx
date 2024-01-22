@@ -30,7 +30,7 @@ function Skills() {
 
   return (
     <section id="skills" className={styles.skillsection}>
-      <h1>Here are my skills</h1>
+      <h1>Toolkit</h1>
       <div className={styles.skillgrid}>
         {skills.map(skill => (
           <div key={skill.language} className={styles.banner}>
