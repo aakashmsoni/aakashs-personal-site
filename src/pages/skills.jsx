@@ -31,14 +31,6 @@ function Skills() {
   return (
     <section id="skills" className={styles.skillsection}>
       <h1>Here are my skills</h1>
-
-      <div className={styles.box}>
-        <div className={styles.btn}>
-          <span>HOVER ME</span>
-        </div>
-      </div>
-
-
       <div className={styles.skillgrid}>
         {skills.map(skill => (
           <div key={skill.language} className={styles.banner}>
