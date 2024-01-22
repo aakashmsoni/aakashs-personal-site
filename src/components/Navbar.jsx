@@ -45,7 +45,7 @@ export function Navbar() {
           <Link to="/">Home</Link>
           <Link to="#about">About</Link>
           <Link to="#skills">Toolkit</Link>
-          <Link to="/projects">Projects</Link>
+          <Link to="#projects">Projects</Link>
           <Link to="" onClick={() => setIsShowResumeVisible(true)}>Resume</Link> 
           <Modal show={isShowResumeVisible} onClose={handleClose}>
             <iframe src="https://cloudpdf.io/view/dbDdm_xHs" style={{width:750, height:650}} frameborder="0" title="resume"></iframe>
@@ -60,7 +60,7 @@ export function Navbar() {
             <Link to="/" >Home</Link>
             <Link to="#about" >About</Link>
             <Link to="#skills">Toolkit</Link>
-            <Link to="/projects" >Projects</Link>
+            <Link to="#projects" >Projects</Link>
             <Link to="" onClick={() => setIsShowResumeVisible(true)}>Resume</Link> 
           </div>
         </div>
