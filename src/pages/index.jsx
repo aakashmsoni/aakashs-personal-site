@@ -16,10 +16,10 @@ function Index() {
           <h3>Web Developer</h3>
           <div className={styles.socialLinks}>
             <a href="https://www.linkedin.com/in/aakashmsoni/">
-            <StaticImage src="../images/linkedin.png" alt="linkedin" className="icons" />
+              <StaticImage src="../images/linkedin.png" alt="linkedin" className="icons" />
             </a>
             <a href="https://www.github.com/aakashmsoni/">
-            <StaticImage src="../images/github.png" alt="linkedin" className="icons" />
+              <StaticImage src="../images/github.png" alt="linkedin" className="icons" />
             </a>
           </div>
         </div>
