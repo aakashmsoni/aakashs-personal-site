@@ -1,6 +1,4 @@
-header {
-  color: black!important;
-}
+
 nav {
   display:grid;
   grid-template-columns: 8fr, 1fr, 1fr;
@@ -13,6 +11,7 @@ nav {
 nav .links {
   display: inline-block;
   text-align: right;
+  
 }
 nav a {
   display: inline-block;
@@ -21,6 +20,7 @@ nav a {
   padding-bottom: 5px;
   position: relative;
   transition: all 0.3s;
+  color: antiquewhite;
 }
 
 nav a::before {
