@@ -1,0 +1,6 @@
+#footer {
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  /* position: sticky; */
+}
