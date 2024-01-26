@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 .about {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
 }
 .about h2 {
   font-size: 50px;
+  margin: 1rem;
 }
-.about p {
-  font-size: 20px;
 
+.descriptionContainer {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  width: 90%;
+  
 }
