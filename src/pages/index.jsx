@@ -4,6 +4,7 @@ import About from "./about";
 import Skills from "./skills";
 import Projects from "./projects";
 import Profile from "./profile";
+import "../styles/index.css"
 
 function Index() {
   return (
