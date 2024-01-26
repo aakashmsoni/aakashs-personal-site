@@ -1,0 +1,11 @@
+#about {
+  width: 60%;
+  display: inline-flex;
+  min-height: 70vh;
+  padding-top: 15em;
+}
+
+#skills {
+  width: 40%;
+  display: inline-flex;
+}
