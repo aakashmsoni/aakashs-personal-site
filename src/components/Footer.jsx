@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <section id="footer">
       <div>
-        <p>Copyright 2024 Aakash Soni</p>
+        <p>Copyright © 2024 Aakash Soni</p>
       </div>
     </section>
   )
