@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import * as styles from '../styles/home.module.css';
+import * as styles from '../styles/profile.module.css';
 
 function Profile() {
   return (
