@@ -26,7 +26,7 @@ function Skills() {
   }`)
   
   const skills = data.skills.nodes[0].frontmatter.skills
-  console.log(skills)
+  
 
   return (
     <section id="skills" className={styles.skillsection}>
