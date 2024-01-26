@@ -6,7 +6,8 @@ nav {
   grid-template-columns: 8fr, 1fr, 1fr;
   margin: 20px auto;
   transition: top 1s;
-  position: relative;
+  position:relative;
+  top: 0;
   width: 100%;
 }
 nav .links {
