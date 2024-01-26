@@ -44,7 +44,7 @@ export function Navbar() {
         <div className="links">
           <Link to="/">Home</Link>
           <Link to="#about">About</Link>
-          <Link to="#skills">Toolkit</Link>
+          {/* <Link to="#skills">Toolkit</Link> */}
           <Link to="#projects">Projects</Link>
           <Link to="" onClick={() => setIsShowResumeVisible(true)}>Resume</Link> 
           <Modal show={isShowResumeVisible} onClose={handleClose}>
@@ -59,7 +59,7 @@ export function Navbar() {
           <div id="hamburgerLinks" className="hamburgerLinks" style={nav === true ? {transform: "translateX(0)"} : {transform: "translateX(100%)"}}>
             <Link to="/" >Home</Link>
             <Link to="#about" >About</Link>
-            <Link to="#skills">Toolkit</Link>
+            {/* <Link to="#skills">Toolkit</Link> */}
             <Link to="#projects" >Projects</Link>
             <Link to="" onClick={() => setIsShowResumeVisible(true)}>Resume</Link> 
           </div>
