@@ -19,14 +19,14 @@ export function Navbar() {
   // HIDE TOP NAV ON DOWN SCROLL
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-  scrollFunction();
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+    scrollFunction();
   }
 
   // SHOW HAMBURGER NAV ICON ON DOWN SCROLL
@@ -51,7 +51,7 @@ export function Navbar() {
             <iframe src="https://cloudpdf.io/view/dbDdm_xHs" style={{width:750, height:650}} frameborder="0" title="resume"></iframe>
           </Modal>
           
-          <button id="hamburgerIcon" className="hamburgerIcon" onClick={() => showNav(!nav)}>
+          <button id="hamburgerIcon" className="hamburgerIcon" onClick={() => showNav(!nav)} style={{right: "-50px"}}>
             <span style={nav === true ? {transform: "rotate(45deg)"} : {transform: "rotate(0)"}}></span>
             <span style={nav === true ? {opacity: "0"} : {opacity: "1"}}></span>
             <span style={nav === true ? {transform: "rotate(-45deg)"} : {transform: "rotate(0)"}}></span>
