@@ -1,7 +1,7 @@
 .portfolio {
   text-align: center;
-  min-height: 100vh;
-  padding-top: 75px;
+  min-height: 90vh;
+  /* padding-top: 75px; */
 }
 .portfolio > h2 {
   font-size: 3em;
@@ -14,27 +14,27 @@
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 80px;
+  grid-gap: 50px;
   margin: 80px 20px;
 }
 .projects h3 {
   text-align: center;
-  margin: 20px auto 0px;
+  margin: 20px auto 20px;
   font-size: 150%;
 }
 .projects p {
-  margin-top: 4px;
+  margin-bottom: 3px;
 }
 .projects button {
   background-color: rgba(146, 146, 146, 0.324);
   color: white;
-  border-radius:5px;
+  border-radius:28px;
   border-style:outset;
   border-width: 2px;
   display: inline-block;
   font-size: 1em;
   margin: 5px;
-  padding: 8px 15px;
+  padding: 8px 55px;
   cursor: pointer;
   transition-duration: 0.2s;
   box-shadow: 1px 1px 5px gray;

@@ -25,7 +25,7 @@ query ProjectsQuery {
 `)
 
   const projects = data.projects.nodes
-  console.log(projects)
+  
 
  
 
@@ -55,22 +55,3 @@ query ProjectsQuery {
 }
 export default Projects;
 
-// export const query = graphql`
-// query ProjectsQuery {
-//   projects: allMarkdownRemark {
-//     nodes {
-//       frontmatter {
-//         title
-//         stack
-//         slug
-//         github {
-//           frontend
-//           backend
-//         }
-//         type
-//       }
-//       id
-//     }
-//   }
-// }
-// `
