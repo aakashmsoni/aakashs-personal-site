@@ -17,17 +17,24 @@ export function Navbar() {
   }
 
   // HIDE TOP NAV ON DOWN SCROLL
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-50px";
-    }
-    prevScrollpos = currentScrollPos;
-    scrollFunction();
+  let fallbackVar
+  if (typeof window === 'undefined') {
+    fallbackVar = 'windowUndefined'
+  } else {
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+      scrollFunction();
   }
+  }
+
+  
 
   // SHOW HAMBURGER NAV ICON ON DOWN SCROLL
   function scrollFunction() {
