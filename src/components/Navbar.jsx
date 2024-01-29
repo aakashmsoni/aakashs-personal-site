@@ -17,8 +17,9 @@ export function Navbar() {
   }
 
   // HIDE TOP NAV ON DOWN SCROLL
-  let fallbackVar
+  
   if (typeof window === 'undefined') {
+    let fallbackVar
     fallbackVar = 'windowUndefined'
   } else {
     var prevScrollpos = window.pageYOffset;

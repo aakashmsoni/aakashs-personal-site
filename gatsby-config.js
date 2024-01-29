@@ -8,6 +8,9 @@ module.exports = {
     description: "web dev portfolio",
     copyright: "This website is copyright 2024 Aakash Soni"
   },
+  // flags: {
+  //   DEV_SSR: true
+  // },
   plugins: [
     {
       resolve: `gatsby-plugin-s3`,
@@ -40,5 +43,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-styled-components",
+    "babel-plugin-styled-components",
   ],
 }

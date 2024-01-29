@@ -8,7 +8,10 @@
 }
 
 .profileText {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .profileText h2 {
@@ -68,7 +71,11 @@
 }
 
 .socialLinks {
-  text-align: center;
-  padding-top: 5px
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  width:120px;
+  height:60px;
 }
 
