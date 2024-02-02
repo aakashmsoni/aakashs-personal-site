@@ -29,7 +29,8 @@ function Skills() {
   
 
   return (
-    <section id="skills" className={styles.skillsection}>
+    <section id="skills">
+      <div className={styles.skillsection}>
       <h1>Toolkit</h1>
       <div className={styles.skillgrid}>
         {skills.map(skill => (
@@ -38,6 +39,7 @@ function Skills() {
             <h3>{skill.language}</h3>
           </div>
         ))}
+      </div>
       </div>
     </section>
   )
