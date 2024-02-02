@@ -34,11 +34,11 @@ query ProjectsQuery {
       <div className={styles.portfolio}>  
         <h2>Portfolio</h2>
         <h3>Projects & Websites I've Created</h3>
-        <div className={styles.projects}>
+        <div className={styles.projectGrid}>
           {projects.map(project => {
             if(project.frontmatter.type.includes('project')) {
               return (
-              <div key={project.id}>
+              <div key={project.id} className={styles.project}>
                 <h3>{project.frontmatter.title}</h3>
                 <p>{project.frontmatter.stack}</p>
                 <a href={project.frontmatter.github.frontend}>
