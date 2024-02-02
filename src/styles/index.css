@@ -1,11 +1,17 @@
 #about {
-  width: 60%;
+  width: 50%;
   display: inline-flex;
-  min-height: 70vh;
-  padding-top: 15em;
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh;
+  /* padding-top: 15em; */
 }
 
 #skills {
-  width: 40%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* padding-top: 60px; */
+  width: 50%;
   display: inline-flex;
 }
