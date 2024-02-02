@@ -43,7 +43,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
-    "gatsby-plugin-styled-components",
-    "babel-plugin-styled-components",
+    // "gatsby-plugin-styled-components",
+    // "babel-plugin-styled-components",
   ],
 }
