@@ -11,21 +11,31 @@
   font-size: 2em;
   font-weight: 400;
 }
-.projects {
+.projectGrid {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
-  margin: 80px 20px;
+  margin: 50px 20px;
 }
-.projects h3 {
+.project {
+  background-color: rgba(32,32,32,0.6);
+  border: solid white 1px;
+  border-radius: 20px;
+  height: fit-content;
+  width: 25em;
+  margin: 0 20%;
+  padding: 10px 0 10px;
+}
+.project h3 {
   text-align: center;
   margin: 20px auto 20px;
   font-size: 150%;
 }
-.projects p {
+.project p {
   margin-bottom: 3px;
 }
-.projects button {
+.project button {
   background-color: rgba(146, 146, 146, 0.324);
   color: white;
   border-radius:28px;
@@ -34,12 +44,12 @@
   display: inline-block;
   font-size: 1em;
   margin: 5px;
-  padding: 8px 55px;
+  padding: 8px 35px;
   cursor: pointer;
   transition-duration: 0.2s;
   box-shadow: 1px 1px 5px gray;
 }
-.projects button:hover {
+.project button:hover {
   background-color: transparent;
   font-size: 1.1em;
   
