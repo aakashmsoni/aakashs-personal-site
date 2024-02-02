@@ -2,15 +2,20 @@
 
 
 .about {
-  /* min-height: 100vh; */
-  padding-top: 10px;
+  background-color: rgba(32, 32, 32, 0.6);
+  height:fit-content;
+  max-width: 700px;
+  padding: 20px 0px 30px;
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
   align-items: center;
+  border: solid white 1px;
+  border-radius: 20px;
 }
+
 .about h2 {
-  font-size: 50px;
+  font-size: 3em;
   margin: 1rem;
 }
 
@@ -18,5 +23,5 @@
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   width: 90%;
-  
+  font-weight:900;
 }

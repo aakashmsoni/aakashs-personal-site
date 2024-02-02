@@ -1,16 +1,21 @@
 .skillsection {
-  /* min-height: 100vh; */
-  padding-top: 10px;
+  background-color: rgba(32,32,32,0.6);
+  padding: 0px 20px 0px 20px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
+  border: solid white 1px;
+  border-radius: 20px;
 }
+
 .skillsection h1 {
   font-size: 3em;
-  margin-top: 1em;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .skillgrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -19,10 +24,6 @@
   /* border: 5px solid bisque; */
   width: 100%;
   padding: 15px;
-  /* margin: 3rem 12rem 8rem 12rem; */
-  
-  
-  
 }
 
 .banner {
