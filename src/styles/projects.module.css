@@ -1,7 +1,7 @@
 .portfolio {
   text-align: center;
-  min-height: 90vh;
-  /* padding-top: 75px; */
+  min-height: 100vh;
+  /* padding-top: 5px; */
 }
 .portfolio > h2 {
   font-size: 3em;
@@ -13,10 +13,11 @@
 }
 .projectGrid {
   display: grid;
+  /* height: 50px; */
   align-items: center;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
-  margin: 50px 20px;
+  grid-gap: 30px;
+  margin: 50px 60px 0px 10px;
 }
 .project {
   background-color: rgba(32,32,32,0.6);

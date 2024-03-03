@@ -1,9 +1,10 @@
 #about {
-  width: 50%;
+  width: 35vw;
   display: inline-flex;
   justify-content: center; 
   align-items: center;
   min-height: 100vh;
+  margin-right: 10px;
   /* padding-top: 15em; */
 }
 
@@ -12,6 +13,6 @@
   align-items: center;
   min-height: 100vh;
   /* padding-top: 60px; */
-  width: 50%;
+  width: 50vw;
   display: inline-flex;
 }

@@ -77,7 +77,8 @@ span {
 
 .hamburgerLinks {
   border-radius: 5px;
-  padding: 10px 0px;
+  /* padding: 10px 0px; */
+  margin-top: 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -92,5 +93,5 @@ span {
 }
 
 .hamburgerLinks a {
-  padding: 10px;
+  padding: 20px 0 20px;
 }
